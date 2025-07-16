@@ -11,7 +11,7 @@
         "betterflarum",
         "DM"
     ],
-    "type": "flarum-theme",
+    "type": "flarum-extension",
     "license": "MIT",
     "authors": [
         {
@@ -33,7 +33,7 @@
                 "background": "#FFFFFF",
                 "color": "#006AFF"
             },
-            "category": "theme"
+            "category": "extension"
         }
     }
 }
