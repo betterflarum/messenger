@@ -1,0 +1,36 @@
+{
+    "name": "betterflarum/nextadmintheme",
+    "description": "The NEXT Flarum Admin theme by fanmade - Feel free to report bugs and suggest on Discuss link",
+  "keywords": [
+    "flarum",
+    "theme",
+    "admin",
+    "nexttheme"
+  ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/d/33572-next-admin-ui"
+    },
+    "require": {
+        "flarum/core": "^1.8.1"
+    },
+    "authors": [
+        {
+            "name": "BetterFlarum",
+            "email": "vnpedl@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Next Admin UI",
+            "category": "theme",
+            "icon": {
+                "name": "fa fa-fill-drip",
+                "backgroundColor": "BLACK",
+                "color": "white"
+            }
+        }
+    }
+}
