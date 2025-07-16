@@ -1,1 +1,3 @@
-# messenger
+# Install
+composer require betterflarum/messenger
+
