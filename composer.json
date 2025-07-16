@@ -1,36 +1,39 @@
 {
-    "name": "betterflarum/nextadmintheme",
-    "description": "The NEXT Flarum Admin theme by fanmade - Feel free to report bugs and suggest on Discuss link",
-  "keywords": [
-    "flarum",
-    "theme",
-    "admin",
-    "nexttheme"
-  ],
-    "type": "flarum-extension",
+    "name": "betterflarum/messenger",
+    "description": "Add Messenger app UI to your forum. Enable neoncube/flarum-private-messaging to start using.",
+    "keywords": [
+        "flarum",
+        "chat",
+        "private message",
+        "direct messsage",
+        "messenger",
+        "facebook",
+        "betterflarum",
+        "DM"
+    ],
+    "type": "flarum-theme",
     "license": "MIT",
-    "support": {
-        "forum": "https://discuss.flarum.org/d/33572-next-admin-ui"
-    },
-    "require": {
-        "flarum/core": "^1.8.1"
-    },
     "authors": [
         {
             "name": "BetterFlarum",
-            "email": "vnpedl@gmail.com",
-            "role": "Developer"
+            "email": "phucapk08@gmail.com",
+            "homepage": "https://modpack.vn"
         }
     ],
+    "require": {
+        "blomstra/fontawesome": "*",
+        "neoncube/flarum-private-messages": "*",
+        "flarum/core": "^1.8.5"
+    },
     "extra": {
         "flarum-extension": {
-            "title": "Next Admin UI",
-            "category": "theme",
+            "title": "Messenger",
             "icon": {
-                "name": "fa fa-fill-drip",
-                "backgroundColor": "BLACK",
-                "color": "white"
-            }
+                "name": "fab fa-facebook-messenger",
+                "background": "#FFFFFF",
+                "color": "#006AFF"
+            },
+            "category": "theme"
         }
     }
 }
