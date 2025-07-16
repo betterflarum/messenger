@@ -13,27 +13,26 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "BetterFlarum",
-            "email": "phucapk08@gmail.com",
-            "homepage": "https://modpack.vn"
-        }
-    ],
     "require": {
         "blomstra/fontawesome": "*",
         "neoncube/flarum-private-messages": "*",
         "flarum/core": "^1.8.5"
     },
+    "authors": [
+        {
+            "name": "BetterFlarum",
+            "email": "vnpedl@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "extra": {
         "flarum-extension": {
-            "title": "Messenger",
+                   "title": "Messenger",
             "icon": {
                 "name": "fab fa-facebook-messenger",
                 "background": "#FFFFFF",
                 "color": "#006AFF"
-            },
-            "category": "extension"
+            }
         }
     }
 }
